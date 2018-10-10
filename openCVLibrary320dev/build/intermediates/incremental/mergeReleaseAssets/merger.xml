@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="C:\Temp\CurrencyReader\openCVLibrary320dev\src\main\assets"/><source path="C:\Temp\CurrencyReader\openCVLibrary320dev\build\generated\assets\shaders\release"/></dataSet><dataSet config="release"><source path="C:\Temp\CurrencyReader\openCVLibrary320dev\src\release\assets"/></dataSet></merger>

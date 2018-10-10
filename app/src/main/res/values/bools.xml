@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="pref_display_currency">true</bool>
+    <bool name="pref_hide_currency">false</bool>
+    <bool name="pref_default_currency">true</bool>
+</resources>

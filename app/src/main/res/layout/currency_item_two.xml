@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    android:paddingBottom="4dp"
+    android:paddingTop="4dp">
+
+    <LinearLayout
+        android:id="@+id/countryInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/stock_flag_new"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center"
+            android:background="@drawable/flag_circle" />
+
+        <TextView
+            android:id="@+id/stock_currency_name_new"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="dskald"
+            android:textColor="@color/blackText"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/stock_price_new"
+            android:gravity="bottom"
+            android:layout_gravity="end"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:text="4.29"
+            android:textColor="@color/blackText"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/stock_amount_new"
+            android:gravity="top"
+            android:layout_gravity="end"
+            android:textAllCaps="true"
+            android:fontFamily="sans-serif-medium"
+            android:text="FOR $1"
+            android:textSize="12sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

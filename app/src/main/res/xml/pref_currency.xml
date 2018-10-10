@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:defaultValue="@bool/pref_default_currency"
+        android:key="@string/pref_usd_key"
+        android:summaryOn="@string/pref_summary_on"
+        android:summaryOff="@string/pref_summary_off"
+        android:title="@string/pref_usd_label"
+        android:icon="@drawable/flag_united_states_of_america"/>
+
+    <CheckBoxPreference
+        android:defaultValue="@bool/pref_default_currency"
+        android:key="@string/pref_eur_key"
+        android:summaryOn="@string/pref_summary_on"
+        android:summaryOff="@string/pref_summary_off"
+        android:title="@string/pref_eur_label"
+        android:icon="@drawable/flag_eu"/>
+
+    <CheckBoxPreference
+        android:defaultValue="@bool/pref_default_currency"
+        android:key="@string/pref_hkd_key"
+        android:summaryOn="@string/pref_summary_on"
+        android:summaryOff="@string/pref_summary_off"
+        android:title="@string/pref_hkd_label"
+        android:icon="@drawable/flag_hk"/>
+
+    <CheckBoxPreference
+        android:defaultValue="@bool/pref_default_currency"
+        android:key="@string/pref_aud_key"
+        android:summaryOn="@string/pref_summary_on"
+        android:summaryOff="@string/pref_summary_off"
+        android:title="@string/pref_aud_label"
+        android:icon="@drawable/flag_au"/>
+
+    <CheckBoxPreference
+        android:defaultValue="@bool/pref_default_currency"
+        android:key="@string/pref_idr_key"
+        android:summaryOn="@string/pref_summary_on"
+        android:summaryOff="@string/pref_summary_off"
+        android:title="@string/pref_idr_label"
+        android:icon="@drawable/flag_indo"/>
+
+    <CheckBoxPreference
+        android:defaultValue="@bool/pref_default_currency"
+        android:key="@string/pref_sgd_key"
+        android:summaryOn="@string/pref_summary_on"
+        android:summaryOff="@string/pref_summary_off"
+        android:title="@string/pref_sgd_label"
+        android:icon="@drawable/flag_sg"/>
+
+    <CheckBoxPreference
+        android:defaultValue="@bool/pref_default_currency"
+        android:key="@string/pref_cny_key"
+        android:summaryOn="@string/pref_summary_on"
+        android:summaryOff="@string/pref_summary_off"
+        android:title="@string/pref_cny_label"
+        android:icon="@drawable/flag_chn"/>
+
+    <CheckBoxPreference
+        android:defaultValue="@bool/pref_default_currency"
+        android:key="@string/pref_gbp_key"
+        android:summaryOn="@string/pref_summary_on"
+        android:summaryOff="@string/pref_summary_off"
+        android:title="@string/pref_gbp_label"
+        android:icon="@drawable/flag_uk"/>
+
+    <CheckBoxPreference
+        android:defaultValue="@bool/pref_default_currency"
+        android:key="@string/pref_jpy_key"
+        android:summaryOn="@string/pref_summary_on"
+        android:summaryOff="@string/pref_summary_off"
+        android:title="@string/pref_jpy_label"
+        android:icon="@drawable/flag_japan"/>
+
+    <CheckBoxPreference
+        android:defaultValue="@bool/pref_default_currency"
+        android:key="@string/pref_php_key"
+        android:summaryOn="@string/pref_summary_on"
+        android:summaryOff="@string/pref_summary_off"
+        android:title="@string/pref_php_label"
+        android:icon="@drawable/flag_phil"/>
+
+    <CheckBoxPreference
+        android:defaultValue="@bool/pref_default_currency"
+        android:key="@string/pref_inr_key"
+        android:summaryOn="@string/pref_summary_on"
+        android:summaryOff="@string/pref_summary_off"
+        android:title="@string/pref_inr_label"
+        android:icon="@drawable/flag_india"/>
+
+    <CheckBoxPreference
+        android:defaultValue="@bool/pref_default_currency"
+        android:key="@string/pref_thb_key"
+        android:summaryOn="@string/pref_summary_on"
+        android:summaryOff="@string/pref_summary_off"
+        android:title="@string/pref_thb_label"
+        android:icon="@drawable/flag_thai"/>
+
+    <CheckBoxPreference
+        android:defaultValue="@bool/pref_default_currency"
+        android:key="@string/pref_krw_key"
+        android:summaryOn="@string/pref_summary_on"
+        android:summaryOff="@string/pref_summary_off"
+        android:title="@string/pref_krw_label"
+        android:icon="@drawable/flag_skor"/>
+
+</PreferenceScreen>

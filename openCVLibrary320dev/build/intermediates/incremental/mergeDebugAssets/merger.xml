@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="F:\work\college\ipcis\openCVLibrary320dev\src\main\assets"/><source path="F:\work\college\ipcis\openCVLibrary320dev\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="F:\work\college\ipcis\openCVLibrary320dev\src\debug\assets"/></dataSet></merger>

@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">ipcis</string>
+
+    <string name="flag">Flag</string>
+    <string name="quantity">Quantity</string>
+    <string name="price">Price</string>
+    <string name="sell">Sell</string>
+    <string name="buy">Buy</string>
+
+    <string name="StockTitle" translatable="false">Stock</string>
+    <string name="ExchangerTitle">Exchanger</string>
+    <string name="ConverterTitle" translatable="false">Converter</string>
+
+    <string name="NoData">Oops..\n No data \n\n Check your Internet connection and refresh the page.</string>
+
+
+    <string name="action_refresh_data" translatable="false">Refresh</string>
+    <string name="action_do_nothing" translatable="false">Do Nothing</string>
+
+    <string name="NPR" translatable="false">NPR(RS)</string>
+
+    <string name="USD" translatable="false">USD</string>
+    <string name="EUR" translatable="false">EUR</string>
+    <string name="HKD" translatable="false">HKD</string>
+    <string name="AUD" translatable="false">AUD</string>
+    <string name="IDR" translatable="false">IDR</string>
+    <string name="SGD" translatable="false">SGD</string>
+    <string name="THB" translatable="false">THB</string>
+    <string name="CNY" translatable="false">CNY</string>
+    <string name="GBP" translatable="false">GBP</string>
+    <string name="JPY" translatable="false">JPY</string>
+    <string name="PHP" translatable="false">PHP</string>
+    <string name="INR" translatable="false">INR</string>
+    <!--<string name="KRW" translatable="false">KRW</string>-->
+
+    <string name="stock_price">Stock Price</string>
+    <string name="you_sell">You Sell</string>
+    <string name="you_buy">You Buy</string>
+    <string name="exchanger_item">Exchanger</string>
+    <string name="map_item" translatable="false">Map</string>
+    <string name="help_item" translatable="false">Help</string>
+    <string name="about_item">About</string>
+
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+
+    <string name="for_quantity">FOR</string>
+    <string name="stock_and_converter"><![CDATA[Stock & Converter]]></string>
+    <string name="warning_description">All data displayed in this application has only informational purpose. To get accurate information, check with your bank.</string>
+    <string name="warning_about">Warning</string>
+    <string name="credits_about">Credits</string>
+    <string name="credits_description">Currency rates API - http://myjson.com/</string>
+
+    <string name="getting_rates">Requesting Rates</string>
+
+    <string name="settings_action_bar">Settings</string>
+
+
+    <!-- Strings related to Preferences -->
+    <string name="pref_currencies_key">currencies_to_show</string>
+    <string name="pref_currencies_label">List of Currencies</string>
+
+    <string name="pref_summary_on">Show</string>
+    <string name="pref_summary_off">Do not show</string>
+
+    <string name="pref_usd_key">usd</string>
+    <string name="pref_eur_key">eur</string>
+    <string name="pref_hkd_key">hkd</string>
+    <string name="pref_aud_key">aud</string>
+    <string name="pref_idr_key">idr</string>
+    <string name="pref_sgd_key">sgd</string>
+    <string name="pref_cny_key">cny</string>
+    <string name="pref_gbp_key">gbp</string>
+    <string name="pref_jpy_key">jpy</string>
+    <string name="pref_php_key">php</string>
+    <string name="pref_inr_key">inr</string>
+    <string name="pref_thb_key">thb</string>
+    <string name="pref_krw_key">krw</string>
+
+    <string name="pref_usd_label">Show USD rate</string>
+    <string name="pref_eur_label">Show EUR rate</string>
+    <string name="pref_hkd_label">Show HKD rate</string>
+    <string name="pref_aud_label">Show AUD rate</string>
+    <string name="pref_idr_label">Show IDR rate</string>
+    <string name="pref_sgd_label">Show SGD rate</string>
+    <string name="pref_cny_label">Show CNY rate</string>
+    <string name="pref_gbp_label">Show GBP rate</string>
+    <string name="pref_jpy_label">Show JPY rate</string>
+    <string name="pref_php_label">Show PHP rate</string>
+    <string name="pref_inr_label">Show INR rate</string>
+    <string name="pref_thb_label">Show THB rate</string>
+    <string name="pref_krw_label">Show KRW rate</string>
+
+</resources>

@@ -1,0 +1,142 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.example.user.ipcis.ConverterFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/convert_to"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:id="@+id/convert_others_flag"
+            android:background="@drawable/flag_circle_big"/>
+
+        <Spinner
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:entries="@array/list_of_currencies"
+            android:id="@+id/convert_others_acronym_spinner"
+            android:textAlignment="center">
+        </Spinner>
+
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2">
+
+            <EditText
+                android:id="@+id/convert_others_currency_amount"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="00.00"
+                android:textAlignment="center"
+                android:layout_centerVertical="true"
+                android:inputType="numberDecimal"
+                android:text=""
+                android:maxLines="1">
+
+            </EditText>
+
+            <ImageView
+                android:id="@+id/convert_others_ET_Button"
+                android:padding="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/convert_others_currency_amount"
+                android:layout_alignBottom="@id/convert_others_currency_amount"
+                android:layout_alignRight="@id/convert_others_currency_amount"
+                android:src="@drawable/ic_clear_icon" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/convert_from"
+        android:paddingTop="32dp"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:id="@+id/convert_MYR_flag"
+            android:background="@drawable/flag_circle_big"/>
+
+        <TextView
+            android:id="@+id/convert_MYR_TV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/NPR"
+            android:textAlignment="center" />
+
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2">
+
+            <EditText
+                android:id="@+id/convert_MYR_amount"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="00.00"
+                android:textAlignment="center"
+                android:layout_centerVertical="true"
+                android:inputType="numberDecimal"
+                android:text=""
+                android:clickable="false"
+                android:maxLines="1">
+
+            </EditText>
+
+            <ImageView
+                android:id="@+id/convert_MYR_ET_Button"
+                android:padding="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/convert_MYR_amount"
+                android:layout_alignBottom="@id/convert_MYR_amount"
+                android:layout_alignRight="@id/convert_MYR_amount"
+                android:src="@drawable/ic_clear_icon" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/howMuchMYR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/howMuchOther"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="14sp"/>
+
+</LinearLayout>

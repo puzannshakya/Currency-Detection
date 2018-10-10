@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_of_currencies">
+        <item>@string/USD</item>
+        <item>@string/EUR</item>
+        <item>@string/HKD</item>
+        <item>@string/AUD</item>
+        <item>@string/IDR</item>
+        <item>@string/SGD</item>
+        <item>@string/THB</item>
+        <item>@string/CNY</item>
+        <item>@string/PHP</item>
+        <item>@string/GBP</item>
+        <item>@string/INR</item>
+        <item>@string/JPY</item>
+    </string-array>
+
+    <string-array name="stock_sell_buy">
+        <item>@string/stock_price</item>
+        <item>@string/you_sell</item>
+        <item>@string/you_buy</item>
+    </string-array>
+
+</resources>

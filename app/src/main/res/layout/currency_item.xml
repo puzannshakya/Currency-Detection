@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+
+        <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="8dp"
+        android:paddingLeft="8dp"
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp">
+
+            <LinearLayout
+                android:id="@+id/countryInfo"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/currencyFlag"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/flag_circle"
+                    />
+
+                <TextView
+                    android:id="@+id/currencyName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="dskald"
+                    android:layout_gravity="center"
+                    android:textColor="@color/blackText"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/quantity"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="1"
+                android:textColor="@color/blackText"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/sellPrice"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="4.5"
+                android:textColor="@color/blackText"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/buyPrice"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="4.4"
+                android:textColor="@color/blackText"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+</LinearLayout>
