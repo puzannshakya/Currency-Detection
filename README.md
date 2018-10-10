@@ -1,5 +1,6 @@
 # Currency-Detection
 Android currency detection
+Training is done in Mobile . The keypoints are saved to sqlite local database
 
 --------- For Training ------------
 In Android.Manifest 
